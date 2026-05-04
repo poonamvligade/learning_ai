@@ -3,7 +3,7 @@
 
 https://www.youtube.com/watch?v=ysPbXH0LpIE
 
-Presented at Code w Claude by ‪anthropic ai‬ on May 22, 2025, in San Francisco, CA, USA.
+Presented at Code w Claude by ‪Anthropic AI‬ on May 22, 2025, in San Francisco, CA, USA.
 
 Speakers:
 Hannah Moran Applied AI 
@@ -21,7 +21,16 @@ Watched the Prompt engineering video from anthropic.
 
 
 ## Prompt Structure
+
+<img width="1343" height="693" alt="Screenshot 2026-05-04 at 3 18 35 PM" src="https://github.com/user-attachments/assets/630b320b-6885-4d0b-8ade-747bf2939468" />
+
 1. Task context
+How to organize info inside the prompt
+background data task images
+Detailed task description and rules
+examples
+prevent hallucination
+
 
 
 
