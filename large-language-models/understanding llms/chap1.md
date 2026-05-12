@@ -9,8 +9,8 @@ This  chapter provides into to LLMS and its application in the world of language
 
 We intend to answer the following questions in this chapter:
 
-What is Language AI?
-What are large language models?
-What are the common use cases and applications of large language models?
-How can we use large language models ourselves?
+* What is Language AI?
+* What are large language models?
+* What are the common use cases and applications of large language models?
+* How can we use large language models ourselves?
 
