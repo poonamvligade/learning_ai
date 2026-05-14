@@ -1,9 +1,9 @@
 AI Roadmap
 
-claude
-openclaw
-learning llms
-codex
-agentic codeing 
-building agents
-an so on
+* claude
+* openclaw
+* Learning LMS
+* OpenAI Codex
+* agentic coding 
+* building agents
+* and so on
