@@ -20,3 +20,7 @@ a computer system performing tasks  close to human intelligence, such as languag
 [Artificial intelligence is] the science and engineering of making intelligent machines, especially intelligent computer programs. It is related to the similar task of using computers to understand human intelligence, but AI does not have to confine itself to methods that are biologically observable.
 
 John McCarthy, 20071
+
+Language AI is a subfield of AI that focuses on developing technologies capable of  understanding, processing, and generating human language. Language AI can be interchangeably used with natural language processing (NLP).
+
+We use language AI to encompass technologies that might not be only LLMs, but still have a significant impact on the field, like how retrieval systems can give superpowers to LLMs.
