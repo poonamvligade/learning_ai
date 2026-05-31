@@ -14,9 +14,9 @@ every a2a agent trnasmits standardised info about itself and supports same publi
 which opens up all sorts of new orchestartion scenarios.
 
 ### A2A protocol
-open protocol to handle agnet to agent communication
+open protocol to handle agent-to-agent communication
 <img width="903" height="276" alt="Screenshot 2026-05-26 at 9 45 14 AM" src="https://github.com/user-attachments/assets/52d95510-734b-49ac-97f9-6e05da7c5d9a" />
-A2a facilitates communication between end user , a client agent and a remote/server agent.
+A2a facilitates communication between end user, a client agent and a remote/server agent.
 
 A client agent is responsible for creating requests and hadling end user interaction.
 while the remote user is responsible for acting on these reqauest in an attempt to provide the correct info or take the accurate action.
@@ -55,9 +55,24 @@ Once Agent A found Agent B, how do they actually talk?
 
 <img width="907" height="422" alt="Screenshot 2026-05-26 at 2 38 14 PM" src="https://github.com/user-attachments/assets/6399466d-a3a8-4681-89a6-5a0987a4855c" />
 
-A2A uses std https for secure communication. the envelop for thir messages is JSON Rpc 2.0
+A2A uses std https for secure communication. The envelope for their messages is JSON RPS 2.0, a simple-to-call function on a remote server.
 
-<img width="874" height="427" alt="Screenshot 2026-05-26 at 2 38 31 PM" src="https://github.com/user-attachments/assets/10d5c7c7-98ab-4587-b45c-7edcbdf2c4eb" />
+
 
 <img width="870" height="429" alt="Screenshot 2026-05-26 at 3 06 25 PM" src="https://github.com/user-attachments/assets/65ebace4-1aaf-4a72-908d-b633870e8fa5" />
+
+Inside these json rpc messages, we have key a2a object, a message 
+### A message
+It represents one turn in the conversation, like agent A asking a question.
+3. It has a role, user, or agent, and contains parts.
+4. A part is the actual content- could be plain text, a file, multimodal, or structured JSON data.
+
+5. When agent B gets a request, if the request is simple and can be completed quickly, it might respond directly with a message containing an answer.
+6. But how does Agent B actually process the request when Agent A calls it? That is the job of the agent executor
+ 
+ ### agent Executor
+
+<img width="896" height="442" alt="Screenshot 2026-05-31 at 5 37 34 PM" src="https://github.com/user-attachments/assets/6f36eb67-d20a-48d5-89c7-857290898a40" />
+
+It's a class that you write, and it links the generic A2A protocol plumbing handled by the A2A SDK
 
