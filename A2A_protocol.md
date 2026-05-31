@@ -76,3 +76,8 @@ It represents one turn in the conversation, like agent A asking a question.
 
 It's a class that you write, and it links the generic A2A protocol plumbing handled by the A2A SDK
 
+<img width="896" height="442" alt="Screenshot 2026-05-31 at 5 54 18 PM" src="https://github.com/user-attachments/assets/37f99149-5177-4f91-8b83-9900766f324f" />
+
+
+<img width="873" height="436" alt="Screenshot 2026-05-31 at 5 54 52 PM" src="https://github.com/user-attachments/assets/af9761c9-abc4-4438-9141-e857d16978b0" />
+
