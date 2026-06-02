@@ -74,10 +74,21 @@ It represents one turn in the conversation, like agent A asking a question.
 
 <img width="896" height="442" alt="Screenshot 2026-05-31 at 5 37 34 PM" src="https://github.com/user-attachments/assets/6f36eb67-d20a-48d5-89c7-857290898a40" />
 
-It's a class that you write, and it links the generic A2A protocol plumbing handled by the A2A SDK
+It's a class that you write, and it links the generic A2A protocol plumbing handled by the A2A SDK and the specific logic of our agent
 
 <img width="896" height="442" alt="Screenshot 2026-05-31 at 5 54 18 PM" src="https://github.com/user-attachments/assets/37f99149-5177-4f91-8b83-9900766f324f" />
+this is what makes agent intoa logo thta can be connected to other agents. The sdk worries baout http, json-rps and event managemnet.
 
+with the executor we focus on what happens whne the gant processes its response?
+what if agent b's tasks takes along time?
+we cant just ake agent a wait on one request.
 
 <img width="873" height="436" alt="Screenshot 2026-05-31 at 5 54 52 PM" src="https://github.com/user-attachments/assets/af9761c9-abc4-4438-9141-e857d16978b0" />
+this is whaere the task object comes in.
+<img width="877" height="431" alt="Screenshot 2026-06-02 at 11 40 30 PM" src="https://github.com/user-attachments/assets/2176665e-53d7-4330-9999-894eda2a4ca9" />
+the task is teh job that agent needs to do. this task has an ID and  status with a lifecycle - submitted, working, maybe input required, if agent be nedds more info, finally completed or failed.
 
+So an agent a sends an initial request., agnet B might quickly respond saying got it. I ahve create task 1,2  ,3 and its not working. agent a then knoiws this task id. to get the fianl summary agnt A can periodically call another a2a method, tasks get, asking whats the stautus of the tasks 1,2,3 .
+
+agent b will respond with the latest atsk status.and eventually that mthod will return teh task completed. and the suammry will be in the task.artifacts.
+<img width="877" height="446" alt="Screenshot 2026-06-02 at 11 47 05 PM" src="https://github.com/user-attachments/assets/2f1a9a8e-88ae-429b-b517-3284b9bdf61e" />
