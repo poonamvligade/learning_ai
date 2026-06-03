@@ -88,7 +88,19 @@ this is whaere the task object comes in.
 <img width="877" height="431" alt="Screenshot 2026-06-02 at 11 40 30 PM" src="https://github.com/user-attachments/assets/2176665e-53d7-4330-9999-894eda2a4ca9" />
 the task is teh job that agent needs to do. this task has an ID and  status with a lifecycle - submitted, working, maybe input required, if agent be nedds more info, finally completed or failed.
 
-So an agent a sends an initial request., agnet B might quickly respond saying got it. I ahve create task 1,2  ,3 and its not working. agent a then knoiws this task id. to get the fianl summary agnt A can periodically call another a2a method, tasks get, asking whats the stautus of the tasks 1,2,3 .
+So an agent a sends an initial request., agnet B might quickly respond saying got it. I ahve create task 1,2  ,3 and its not working. agent a then knoiws this task id. to get the final summary, agent A can periodically call another a2a method, tasks get, asking whats the stautus of the tasks 1,2,3.
 
-agent b will respond with the latest atsk status.and eventually that mthod will return teh task completed. and the suammry will be in the task.artifacts.
+Agent B will respond with the latest task status, and eventually, that method will return the task completed. and the summary will be in the task. artifacts.
+
 <img width="877" height="446" alt="Screenshot 2026-06-02 at 11 47 05 PM" src="https://github.com/user-attachments/assets/2f1a9a8e-88ae-429b-b517-3284b9bdf61e" />
+
+### Task lifecycle and polling challenge
+
+<img width="909" height="437" alt="Screenshot 2026-06-03 at 7 33 54 PM" src="https://github.com/user-attachments/assets/00f32b1c-8123-4e72-ad4d-903f6920c924" />
+
+Now, polling can work for quick updates.
+
+Step 4: streaming
+
+<img width="916" height="434" alt="Screenshot 2026-06-03 at 7 34 54 PM" src="https://github.com/user-attachments/assets/1db05174-db91-4dc6-8595-04d2f4171208" />
+
