@@ -1,5 +1,7 @@
-How Transformer LLMs Work
+How Transformer LLMs Work?
+
 Instructors: Jay Alammar, Maarten Grootendorst
+
 Co-authors of "Hands-On Large Language Models"
 
 # Intro
@@ -39,3 +41,6 @@ Here is how the generation process works -
 4. The model then uses the output vectors of a transformer block and passes them to the last component, the language modelling head, which finally generates the output token.
   
    <img width="838" height="597" alt="Screenshot 2026-08-07 at 5 06 17 PM" src="https://github.com/user-attachments/assets/8a85d0a1-a34b-43a8-9d93-e7d3bb572267" />
+
+
+   #### The magic of LLLMs comes  not only the transformer architecture but also from the incredibly rich data the models learn from.
