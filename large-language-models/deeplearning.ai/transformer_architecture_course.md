@@ -43,4 +43,4 @@ Here is how the generation process works -
    <img width="838" height="597" alt="Screenshot 2026-08-07 at 5 06 17 PM" src="https://github.com/user-attachments/assets/8a85d0a1-a34b-43a8-9d93-e7d3bb572267" />
 
 
-   #### The magic of LLLMs comes  not only the transformer architecture but also from the incredibly rich data the models learn from.
+   #### The magic of LLLMs comes not only from the transformer architecture but also from the incredibly rich data the models learn from.
