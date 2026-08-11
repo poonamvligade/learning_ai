@@ -36,7 +36,9 @@ from generating text to creating numerical representations and classifying textu
 
 
 At the start of this language AI field, the focus was mainly on representing language to analyse unstructured data.
-1. A first and very relevant method is representing language as a bag of words.
+A first and very relevant method is representing language as a bag of words.
 1. Imagine you have some input text.
 2. That is a cute dog"
-3. To represent this sentence you can break it up into smaller pieces. To do so, you split the text into words by seperatong them into white space
+3. To represent this sentence, you can break it up into smaller pieces. To do so, you split the text into words by separating them througha  white space this  process of converting text into pieces called tokenizations and each individuel word is called a token
+4. Note a token can be even smaller than an entire word eg. forming can become "form" , "ing".
+you can perform the same tokenization method with another document
